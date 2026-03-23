@@ -8,57 +8,59 @@ The goal is to build a reliable model that can predict wine quality and help und
 
 
 ## Features
-- Data Analysis & Preprocessing
-Handling real-world dataset (winequality-red.csv)
-Data cleaning and preparation
-Feature exploration and correlation analysis
+- Data Analysis & Preprocessing : 
+  - Handling real-world dataset (winequality-red.csv)
+  - Data cleaning and preparation
+  - Feature exploration and correlation analysis
 
-- Exploratory Data Analysis (EDA)
-Visualization using Seaborn and Matplotlib
-Understanding relationships between features and target variable
-Identifying important features affecting wine quality
+- Exploratory Data Analysis (EDA) : 
+  - Visualization using Seaborn and Matplotlib
+  - Understanding relationships between features and target variable
+  - Identifying important features affecting wine quality
 
-- Machine Learning Model
-Classification-based approach
-Model training using Scikit-learn
-Performance evaluation using metrics like accuracy
+- Machine Learning Model : 
+  - Classification-based approach
+  - Model training using Scikit-learn
+  - Performance evaluation using metrics like accuracy
 
 
 ## Tech Stack
 - Language
-Python
+  - Python
 
 - Libraries
-- Pandas (Data manipulation)
-- NumPy (Numerical operations)
-- Matplotlib & Seaborn (Visualization)
-- Scikit-learn (Machine Learning)
+  - Pandas (Data manipulation)
+  - NumPy (Numerical operations)
+  - Matplotlib & Seaborn (Visualization)
+  - Scikit-learn (Machine Learning)
 
 - Tools
-- Jupyter Notebook
-- VS Code
-- Virtual Environment (venv)
+  - Jupyter Notebook
+  - VS Code
+  - Virtual Environment (venv)
 
 
 ## Project Structure
+```
 Wine-Quality-Classification/
 │── winequality-red.csv                                         # Dataset (1,599 rows × 12 features)
 │── requirements.txt                                            # Python dependencies
 │── Lab 22-Wine Quality Classification by Scikit-Learn.ipynb   # Main notebook
 │── README.md
+```
 
 
 ## Setup Instructions
-- Clone the repository
-git clone https://github.com/dakshita12/Wine-Quality-Classification.git
-cd Wine-Quality-Classification
+- Clone the repository :
+  - git clone https://github.com/dakshita12/Wine-Quality-Classification.git
+  - cd Wine-Quality-Classification
 
-- Create virtual environment
-python -m venv wine_quality
-wine_quality\Scripts\activate
+- Create virtual environment :
+  - python -m venv wine_quality
+  - wine_quality\Scripts\activate
 
 - Install dependencies
-pip install -r requirements.txt
+  - pip install -r requirements.txt
 
 
 ## How to Run
